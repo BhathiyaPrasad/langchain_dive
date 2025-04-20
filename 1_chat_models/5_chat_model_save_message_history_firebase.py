@@ -19,11 +19,12 @@ Steps to replicate this example:
 5. Enable the Firestore API in the Google Cloud Console:
     - https://console.cloud.google.com/apis/enableflow?apiid=firestore.googleapis.com&project=crewai-automation
 """
+# gcloud auth application-default login -> cmd login command
 
 load_dotenv()
 
 # Setup Firebase Firestore
-PROJECT_ID = "langchain-demo-abf48"
+PROJECT_ID = "langchain-bhathiya"
 SESSION_ID = "user_session_new"  # This could be a username or a unique ID
 COLLECTION_NAME = "chat_history"
 
